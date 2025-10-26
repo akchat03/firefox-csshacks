@@ -4,7 +4,7 @@ See the above repository for updates as well as full license text. */
 /* Make window-control - aka caption buttons round following theme text color. */
 
 /* Uncomment the following line to use colorful icons ala MacOS */
-/* .titlebar-button{ --uc-caption-background: var(--uc-caption-color) } */
+.titlebar-button{ --uc-caption-background: var(--uc-caption-color) }
 
 .titlebar-button { opacity: 0.6; --uc-caption-color: rgb(252,185,15) }
 .titlebar-min    { opacity: 0.5; --uc-caption-color: rgb(36, 209, 49) }
